@@ -15,8 +15,8 @@ on:
    #   run:  |
    #     pwd
     #    ls
-
-lint:
+jobs:
+  lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
