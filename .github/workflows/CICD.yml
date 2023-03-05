@@ -15,8 +15,8 @@ on:
    #   run:  |
    #     pwd
     #    ls
-
-build:
+jobs:
+  build:
     runs-on: ubuntu-latest
     needs: [lint]
     steps: 
@@ -31,7 +31,7 @@ build:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-jobs:
+
   lint:
     runs-on: ubuntu-latest
     steps:
