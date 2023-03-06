@@ -5,16 +5,6 @@ on:
     branches:
     - dev
 
-#jobs:
- # hello:
-  #  runs-on:  ubuntu-latest
- #   steps:
- #   - name: step1
-  #    run:  date
-  #  - name: step2
-   #   run:  |
-   #     pwd
-    #    ls
 env:
   ENV: "dev"
   APP_NAME: image-app
@@ -77,4 +67,12 @@ jobs:
       run: |
         python --version
         
+<<<<<<< HEAD
 #        flake8 --extend-ignore E203,W234,E302,E305,E722
+=======
+
+
+        
+#        flake8 --extend-ignore E203,W234,E302,E305,E722
+
+>>>>>>> dev
