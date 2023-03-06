@@ -12,9 +12,8 @@ jobs:
      -  name: step1
         run:  date
      -  name: step2
-        run:  |
-        pwd
-        ls
+        run:  pwd
+      
 
         
 #        flake8 --extend-ignore E203,W234,E302,E305,E722
