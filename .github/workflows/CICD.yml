@@ -3,7 +3,7 @@ name: CICD workflow for dev environment
 on:
   push:
     branches:
-    - 
+    - dev
 
 env:
   ENV: "dev"
@@ -67,12 +67,4 @@ jobs:
       run: |
         python --version
         
-<<<<<<< HEAD
 #        flake8 --extend-ignore E203,W234,E302,E305,E722
-=======
-
-
-        
-#        flake8 --extend-ignore E203,W234,E302,E305,E722
-
->>>>>>> dev
