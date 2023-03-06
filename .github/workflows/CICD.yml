@@ -67,7 +67,7 @@ jobs:
     - name: Set up Python Environment
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'
+        python-version: '3.8'
 
     - name: Install dependencies
       run: |
@@ -78,4 +78,3 @@ jobs:
         python --version
         
 #        flake8 --extend-ignore E203,W234,E302,E305,E722
-
