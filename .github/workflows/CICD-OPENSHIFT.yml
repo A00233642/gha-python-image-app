@@ -3,7 +3,7 @@ name: CI/CD for PROD Environment
 on:
   pull_request:
     branches:
-    - main
+    - feat/family
 
 env:
   ENV: "prod"
